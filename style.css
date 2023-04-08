@@ -1,0 +1,571 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.4;
+
+    display: block;
+
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #f1f3f6;
+    padding-top: 20px;
+
+}
+
+.headerBlue {
+    position: relative;
+    padding-bottom: 56px;
+    min-width: 978px;
+    line-height: 1.4;
+}
+
+.headerBlue1 {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 56px;
+    z-index: 10;
+    will-change: auto;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    flex-direction: row;
+}
+
+.gap {
+    height: 100%;
+    min-width: 124px;
+}
+
+.innerFlex {
+    height: 100%;
+    width: 100px;
+    max-width: 1248px;
+    display: flex;
+    padding-left: 250px;
+}
+
+.logoFlex {
+    justify-content: flex-end;
+    min-width: 137px;
+    display: flex;
+}
+
+.logoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoFlipkart {
+    display: block;
+}
+
+a,
+img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+.exploreSec {
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.plusStyle {
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+
+.searchBarBox {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    min-width: 450px;
+    width: 100%;
+    margin: 0 auto 0 12px;
+    align-items: center;
+}
+
+.searchBox {
+    display: inline-block;
+    height: 36px;
+    width: 100%;
+    max-width: 564px;
+    position: relative;
+}
+
+.searchBoxFlex {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    background-color: #fff;
+
+}
+
+.searchWrite {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.search {
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+
+.searchButton {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+}
+
+.loginFlex {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    max-width: 150px;
+}
+
+.loginInnerFlex {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .1px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.loginText {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.loginStyle {
+    color: #2874f0;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 40px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    text-decoration: none;
+}
+
+.moreInnerFlex {
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.moreContent {
+    position: relative;
+    display: inline-block;
+}
+
+.moreSymbol {
+    transform: rotate(270deg);
+    margin: 1px 0 0 8px;
+}
+
+.cartInner {
+    position: relative;
+    display: inline-block;
+}
+
+.cartInnerFlex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.cartContent {
+    display: flex;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: .1px;
+}
+
+.optionsGroup {
+    display: flex;
+    padding-left: 210px;
+}
+
+.cartLogo {
+    height: 16px;
+    width: 16px;
+    margin: 0 8px;
+}
+
+.gapR {
+    height: 100%;
+    min-width: 124px;
+}
+
+.thumbBar {
+    min-height: 112px;
+    width: 100%;
+    background: #fff;
+    color: black;
+    position: relative;
+}
+
+.thumbBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    border-bottom: 1px solid #eaeaea;
+}
+
+
+.thumbInnerBox {
+    position: sticky;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1280px;
+    color: #212121;
+    width: 100%;
+    display: flex;
+}
+
+.thumb {
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+    color: #2874f0;
+    text-decoration: none;
+}
+
+.thumb:first-child {
+    padding-left: 22px;
+}
+
+.thumbImgSize {
+    position: relative;
+    margin: 0 auto;
+}
+
+.imgStyle {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 1;
+}
+
+.thumbText {
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+.thumbText:hover{
+    color: #2874f0;
+}
+
+.firstBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+.adBox{
+    inherits: none;
+}
+
+.adImgStyle{
+    height: 393px;
+    width: auto;
+    object-fit: cover;
+    padding-left: 5px;
+}
+
+.carouselAdBox{
+    padding-top: 10px;
+    width: 100%;
+    position: relative;
+    display: block;
+    min-width: 978px;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+.carouselBox {
+    width: 100%;
+    position: relative;
+    display: block;
+    min-width: 978px;
+    max-width: 1680px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.carouselSet {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sliderTitle {
+    border-bottom: 2px solid #f1f3f6;
+    display: flex;
+    flex-direction: row;
+}
+
+.textTitle{
+    font-size: 20px;
+    line-height: 1.38;
+    font-weight: 500;
+    padding-right: 30px;
+    padding: 20px;
+    width: 93%;
+    
+}
+
+.viewText{
+    padding-top: 15px;
+}
+
+.viewTextStyle{
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: box-shadow .2s ease;
+    vertical-align: super;
+    display: inline-block;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.carouselRow {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.carousel {
+    padding: 12px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.carouselImg {
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.carouselImgStyle {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 1;
+}
+
+.carouselText {
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.offers{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #388e3c;
+    padding-top: 8px;
+}
+
+.brands{
+    opacity: .6;
+    padding-top: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.nextButtonFlex{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    pointer-events: none;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.nextButtonInnerFlex{
+    display: flex;
+    align-self: center;
+    pointer-events: auto;
+    padding: 40px 15px;
+    box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+    background-color: hsla(0,0%,100%,.98);
+    cursor: pointer;
+    border-radius: 4px 0 0 4px;
+}
+
+.buttonRotate{
+    transform: rotate(180deg);
+}
+
+.buttonFill{
+    fill: #212121;
+}
+
+.dropDown{
+    position: relative;
+    display: inline-block;
+}
+.dropDownContent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 3px;
+}
+
+.dropDownContent a{
+    display: block;
+    text-decoration: none;
+    color: #212121;
+    font-weight: 200px;
+}
+
+.dropDownContent a:hover{
+    background-color: #f7f7f7;
+}
+
+.dropDown:hover .dropDownContent{
+    display: block;
+}
+
+.dropOptions{
+   
+    border-bottom: 1px solid rgb(241, 237, 237);
+    cursor: pointer;
+    outline: none;
+    padding: 20px 40px;
+    font-size: 12px;
+    font-weight: 400;
+    transition: box-shadow .2s ease;
+    vertical-align: super;
+    display: inline-block;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.moredropDownContent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 240px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 3px;
+}
+
+.moredropDownContent a{
+    display: block;
+    text-decoration: none;
+    color: #212121;
+    font-weight: 200px;
+}
+
+.moredropDownContent a:hover{
+    background-color: #f7f7f7;
+}
+
+.dropDown:hover .moredropDownContent{
+    display: block;
+}
+
+.carouselImgStyle:hover{
+    transform: scale(1.1);
+}
+
+.cartContent:hover{
+    color: #fff;
+}
+
+.viewTextStyle:hover{
+    color: #fff;
+}
+
+.exploreSec:hover{
+    color: #fff;
+}
+
